@@ -1,0 +1,34 @@
+{
+  "name": "kkhoot",
+  "version": "1.0.0",
+  "description": "Trivia sencillo multijugador",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon src/index.js",
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IndiraSierra/kkhoot.git"
+  },
+  "keywords": [],
+  "author": "Indira Sierra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IndiraSierra/kkhoot/issues"
+  },
+  "homepage": "https://github.com/IndiraSierra/kkhoot#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "jsonwebtoken": "^9.0.2",
+    "express": "^5.1.0",
+    "mongoose": "^8.14.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.9"
+  }
+}
+
